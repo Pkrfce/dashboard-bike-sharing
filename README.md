@@ -10,8 +10,8 @@ Dashboard ini dibuat menggunakan **Streamlit** untuk memvisualisasikan data Bike
 
 ## 📊 Pertanyaan Bisnis
 
-1. Musim dan kondisi cuaca apa dengan penyewaan tertinggi & terendah?
-2. Jam berapa penyewaan tertinggi pada hari kerja vs non-kerja?
+1. Pada periode 2011–2012, musim dan kondisi cuaca mana yang menghasilkan rata-rata jumlah penyewaan sepeda harian tertinggi dan terendah, sehingga perusahaan dapat menentukan waktu terbaik untuk promosi dan pengelolaan armada?
+2. Pada periode 2011–2012, pada jam berapa permintaan penyewaan sepeda paling tinggi pada hari kerja dan hari non-kerja, sehingga perusahaan dapat mengatur distribusi sepeda berdasarkan pola waktu penggunaan?
 
 ---
 
@@ -80,16 +80,17 @@ streamlit run dashboard/dashboard.py
 
 ### 6. Insight
 
-- Musim Fall tertinggi
-- Hari kerja: pagi & sore
-- Cuaca cerah paling tinggi
-- Hari libur: siang–sore
+- Musim Fall memiliki rata-rata jumlah penyewaan sepeda harian tertinggi.
+- Kondisi cuaca cerah menghasilkan jumlah penyewaan tertinggi dibandingkan kondisi cuaca lainnya.
+- Pada hari kerja, permintaan tertinggi terjadi pada jam berangkat dan pulang kerja, yaitu sekitar pukul 08.00 serta 17.00–18.00.
+- Pada hari non-kerja, permintaan cenderung meningkat pada siang hingga sore hari.
 
 ### 7. Rekomendasi
 
-- Tambah sepeda saat demand tinggi
-- Fokus saat cuaca cerah
-- Optimalkan jam sibuk, 08.00, 17.00–18.00
+- Menambah ketersediaan sepeda pada musim Fall karena permintaan cenderung lebih tinggi.
+- Mengoptimalkan distribusi sepeda saat cuaca cerah.
+- Menempatkan lebih banyak sepeda pada jam sibuk hari kerja, terutama pukul 08.00 dan 17.00–18.00.
+- Pada hari non-kerja, distribusi sepeda dapat difokuskan pada siang hingga sore hari.
 
 ### 8. Tools
 
